@@ -1,12 +1,12 @@
-
+package teste;
 public class TestaContaComExcecaoChecked {
 
 	public static void main(String[] args)  {
 		
-		Conta conta = new Conta();
+		modelo.Conta conta = new modelo.Conta();
 		try {
 			conta.deposita();
-		} catch (MinhaExcecao ex) {
+		} catch (modelo.MinhaExcecao ex) {
 			System.out.println("tratamento...");
 		}
 	}

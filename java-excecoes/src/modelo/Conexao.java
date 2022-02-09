@@ -1,4 +1,4 @@
-
+package modelo;
 public class Conexao implements AutoCloseable {
 
 	    public Conexao() {

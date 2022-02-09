@@ -1,4 +1,4 @@
-
+package modelo;
 public class MinhaExcecao extends Exception { //checked
 
 	

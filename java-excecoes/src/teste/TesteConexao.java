@@ -1,9 +1,9 @@
-
+package teste;
 public class TesteConexao {
 
 	public static void main(String[] args) {
 
-		try(Conexao conexao2 = new Conexao()){
+		try(modelo.Conexao conexao2 = new modelo.Conexao()){
 			conexao2.leDados();
 		}catch(IllegalStateException ex) {
 			System.out.println("Deu erro na conexao");
